@@ -33,6 +33,7 @@ body {
   -webkit-box-shadow: 0px 0px 50px 5px var(--shadow);
   -moz-box-shadow: 0px 0px 50px 5px var(--shadow);
   box-shadow: 0px 0px 50px 5px var(--shadow);
+  border: 2px solid goldenrod;
 }
 
 ul {
