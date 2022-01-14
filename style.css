@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --shadow: rgba(0, 0, 0, 0.9);
-}
-
 h1,
 h2,
 h3 {
@@ -27,23 +23,17 @@ body {
   line-height: 1.5rem;
   text-align: center;
   background: #dd5e89; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f7bb97,
-    #dd5e89
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f7bb97,
-    #dd5e89
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #f7bb97, #dd5e89);
+  background: linear-gradient(to right, #f7bb97, #dd5e89);
 }
 
 .main {
   border: none;
   width: 100vw;
   box-shadow: none;
-  background-color: rgba(255, 255, 255, 0.65)
+  background-color: rgba(255, 255, 255, 0.65);
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 .subtitle {
@@ -70,8 +60,6 @@ a {
     width: unset;
     height: unset;
     padding: 1rem 2rem;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
-      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     border-radius: 8px;
   }
 }
