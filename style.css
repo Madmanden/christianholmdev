@@ -55,14 +55,11 @@ a {
   color: inherit;
 }
 
-@media (max-width: 595px) {
+@media (max-width: 570px) {
   .main {
     border: none;
     width: 100vw;
     box-shadow: none;
-
-    background-color: linear-gradient(white, white),
-      radial-gradient(circle at top left, #f69ec4, #32557f);
   }
   h1 {
     line-height: 2.25rem;
