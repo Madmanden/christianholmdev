@@ -52,5 +52,15 @@ li {
 
 a {
   color: inherit;
-  //text-decoration: none;
+}
+
+@media (max-width: 595px) {
+  .main {
+    border: none;
+    width: 100vw;
+    box-shadow: none;
+  }
+  h1 {
+    line-height: 2.25rem;
+  }
 }
