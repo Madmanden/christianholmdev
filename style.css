@@ -41,13 +41,14 @@ body {
 .subtitle {
   font-style: italic;
   font-weight: 300;
-  margin: 0 1rem;
+  margin: 0;
+  padding-bottom: 1rem;
 }
 
 ul {
   margin: 0;
   padding: 0;
-  padding-bottom: 1rem;
+  padding-bottom: 1.2rem;
 }
 
 li {
