@@ -26,7 +26,7 @@ body {
   background: linear-gradient(to right, #f7bb97, #dd5e89);
 }
 
-.main {
+.container {
   max-width: 90%;
   margin: 0 auto;
   padding: 0.5rem 2rem;
