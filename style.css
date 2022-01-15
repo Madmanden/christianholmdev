@@ -23,13 +23,12 @@ body {
   line-height: 1.5rem;
   text-align: center;
   background: #dd5e89; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f7bb97, #dd5e89);
   background: linear-gradient(to right, #f7bb97, #dd5e89);
 }
 
 .main {
   max-width: 90%;
-  margin-inline: auto;
+  margin: 0 auto;
   padding: 0.5rem 2rem;
   border-radius: 8px;
   box-shadow: none;
