@@ -67,4 +67,8 @@ a {
   .container {
     max-width: 100%;
   }
+
+  .developer::before {
+    content: " - ";
+  }
 }
