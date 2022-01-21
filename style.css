@@ -40,6 +40,7 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 1.5rem;
+  -webkit-font-smoothing: antialiased;
   text-align: center;
   background: #dd5e89; /* fallback for old browsers */
   background: linear-gradient(to right, #f7bb97, #dd5e89);
